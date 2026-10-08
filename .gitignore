@@ -1,0 +1,19 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.so
+
+# 你的数据集和结果文件（这些很大且是动态生成的）
+*.jsonl
+*.jpg
+*.png
+*.jpeg
+/mnt/data-2/
+
+# 虚拟环境（如果有的话）
+venv/
+env/
+
+# 敏感信息（绝对不要传！）
+.env
+*.key
